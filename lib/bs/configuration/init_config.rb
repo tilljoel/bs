@@ -21,7 +21,7 @@ module BS::Configuration
 
     def init_settings
       Settings.use :env_var, :commandline
-      Settings.description = 'A script to fetch continous integraton build '\
+      Settings.description = 'A script to fetch continuous integraton build '\
                              'status for a github commit'\
                              "\n\n"\
                              "version: #{BS::VERSION}"

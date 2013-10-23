@@ -13,12 +13,12 @@ Gem::Specification.new do |s|
   s.files             = %w( README.md Rakefile )
   s.files             += Dir.glob('lib/**/*.rb')
   s.files             += Dir.glob('bin/**/*')
-  s.files            = `git ls-files`.split("\n")
-  s.executables      = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
-  s.rdoc_options     = ['--charset=UTF-8']
-  s.test_files       = `git ls-files -- {test,features}/*`.split("\n")
-  s.require_path     = 'lib'
-  s.description       = 'A script to fetch continous integraton build status for a github commit'
+  s.files             = `git ls-files`.split("\n")
+  s.executables       = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
+  s.rdoc_options      = ['--charset=UTF-8']
+  s.test_files        = `git ls-files -- {test,features}/*`.split("\n")
+  s.require_path      = 'lib'
+  s.description       = 'Check the build status from the command line, fetch continuous integraton status from the Github status API'
 
   s.add_runtime_dependency 'configliere',    '~> 0.4.18'
   s.add_runtime_dependency 'rugged',         '~> 0.17.0.b6'

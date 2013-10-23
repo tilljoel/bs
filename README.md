@@ -113,24 +113,24 @@ other in the following order.
 
 usage: bs [...--param=val...]
 
-A script to fetch continous integraton build status for a github commit
+Show continuous integraton build status from the Github status API'
 
 version: 0.0.1
-
-Params:
-   -f, --config=filename          Custom config file [Env Var: BS_CONFIG]
-   -p, --github_password=String   Github password to use for authentication [Env Var: BS_GITHUB_PASSWORD]
-   -u, --github_user=String       Github username to use for authentication [Env Var: BS_GITHUB_USER]
-   -c, --limit=Integer            Number of commits to fetch status from,up to sha [Default: 1] [Env Var: BS_LIMIT]
-   -l, --log_level=String         Try: DEBUG, INFO, WARN, ERROR, FATAL [Default: WARN] [Env Var: BS_LOG_LEVEL]
-   -o, --owner=String             Github repository owner/username [Required] [Env Var: BS_OWNER]
-   -s, --ref=String               Commit sha, branch or tag  (or partial sha for local repo) [Env Var: BS_REF]
-   -r, --repo=String              Github repository name [Required] [Env Var: BS_REPO]
-       --reporter=String          Try: default_no_color, default, full, none, minimal [Default: default] [Env Var: BS_REPORTER]
-   -V, --verbose                  Print more commit status information [Env Var: BS_VERBOSE]
-   -v, --version                  Print version [Env Var: BS_VERBOSE]
-
 ```
+
+Command flag                    | Description
+--------------------------------|----------------------------------------------------------------------------------
+ `-f, --config=filename`        | Custom config file [Env Var: BS_CONFIG]
+ `-p, --github_password=String` | Github password to use for authentication [Env Var: BS_GITHUB_PASSWORD]
+ `-u, --github_user=String`     | Github username to use for authentication [Env Var: BS_GITHUB_USER]
+ `-c, --limit=Integer`          | Number of commits to fetch status from,up to sha [Default: 1] [Env Var: BS_LIMIT]
+ `-l, --log_level=String`       | Try: DEBUG, INFO, WARN, ERROR, FATAL [Default: WARN] [Env Var: BS_LOG_LEVEL]
+ `-o, --owner=String`           | Github repository owner/username [Required] [Env Var: BS_OWNER]
+ `-s, --ref=String`             | Commit sha, branch or tag  (or partial sha for local repo) [Env Var: BS_REF]
+ `-r, --repo=String`            | Github repository name [Required] [Env Var: BS_REPO]
+ `-V, --verbose`                | Print more commit status information [Env Var: BS_VERBOSE]
+ `-v, --version`                | Print version [Env Var: BS_VERBOSE]
+ `--reporter=String`            | Try: default_no_color, default, full, none, minimal [Default: default] [Env Var: BS_REPORTER]
 
 ### Authentication
 Alias `bs` to something like ``bs --github_password=`keychain_password
