@@ -1,0 +1,23 @@
+
+# Avoid methods longer than 30 lines of code
+Documentation:
+  Enabled: false
+
+CaseEquality:
+  Enabled: false
+
+ConstantName:
+  Enabled: false
+
+MethodLength:
+  Max: 30
+
+ClassLength:
+  Max: 120
+
+AllCops:
+  Excludes:
+  - features/step_definitions.rb
+  - test/base/test_commit.rb
+  - test/base/github/test_commits_wrapper.rb
+  - test/base/github/test_statuses_wrapper.rb
