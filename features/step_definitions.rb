@@ -36,10 +36,14 @@ Given /the environment variable "(.*)" is set to "(.*)"/ do |env, value|
 end
 
 Given /^no local repo is found$/ do
+  step %{I successfully run `git config user.email "tilljoel@example.com"`}
+  step %{I successfully run `git config user.name "Joel Larsson"`}
   step %{I successfully run `git init`}
 end
 
 Given /^the local repo has owner="(.*?)", repo="(.*?)"$/ do |owner, repo|
+  step %{I successfully run `git config user.email "tilljoel@example.com"`}
+  step %{I successfully run `git config user.name "Joel Larsson"`}
   step %{I successfully run `git init`}
   step %{I successfully run `touch README.md`}
   step %{I successfully run `git add README.md`}

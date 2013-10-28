@@ -1,6 +1,5 @@
 # encoding: utf-8
 require 'aruba/cucumber'
-require 'pry'
 require 'simplecov'
 
 class SimpleCov::Formatter::QualityFormatter

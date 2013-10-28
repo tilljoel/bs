@@ -17,7 +17,6 @@ require 'minitest/autorun'
 require 'minitest/reporters'
 require 'minitest/focus'
 require 'mocha/setup'
-require 'pry'
 
 puts "Running specs in version #{RUBY_VERSION}" +
      " on #{RUBY_PLATFORM} #{RUBY_DESCRIPTION}"
