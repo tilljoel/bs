@@ -9,7 +9,6 @@ require 'bs/base/repo'
 module BS::Base::Github
   include BS::Base
   describe StatusesWrapper do
-
     describe '#status_list' do
       let(:owner)             { 'ruby' }
       let(:repo)              { 'ruby' }
