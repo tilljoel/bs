@@ -1,4 +1,9 @@
 language: ruby
+
+before_install:
+  - git config --global user.name  "Travis CI"
+  - git config --global user.email "support@travis-ci.com"
+
 rvm:
   - 1.9.3
   - jruby-19mode # JRuby in 1.9 mode
