@@ -10,7 +10,6 @@ PATH
       github_api (~> 0.10.1)
       logging (~> 1.8.1)
       logging (~> 1.8.1)
-      oj (~> 2.1.2)
       rugged (~> 0.17.0.b6)
 
 GEM
@@ -117,7 +116,6 @@ GEM
       multi_json (~> 1.0)
       multi_xml (~> 0.5)
       rack (~> 1.2)
-    oj (2.1.7)
     parallel (0.9.0)
     powerbar (1.0.11)
       ansi (~> 1.4.0)
