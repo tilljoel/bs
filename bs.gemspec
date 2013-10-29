@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'configliere',    '~> 0.4.18'
   s.add_runtime_dependency 'rugged',         '~> 0.17.0.b6'
   s.add_runtime_dependency 'command_line_reporter', '~> 3.2.1'
-  # s.add_runtime_dependency 'oj',             '~> 2.1.2'
+  s.add_runtime_dependency 'oj',             '~> 2.1.2'
   s.add_runtime_dependency 'github_api',     '~> 0.10.1'
   s.add_runtime_dependency 'logging',        '~> 1.8.1'
   s.add_runtime_dependency 'activemodel',    '~> 3.2.13'
