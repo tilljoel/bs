@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/tilljoel/bs.png?branch=master)](https://travis-ci.org/tilljoel/bs)
+[![Code Climate](https://codeclimate.com/github/tilljoel/bs.png)](https://codeclimate.com/github/tilljoel/bs)
 
 # BS - Build Status
 
