@@ -10,6 +10,7 @@ PATH
       github_api (~> 0.10.1)
       logging (~> 1.8.1)
       logging (~> 1.8.1)
+      oj (~> 2.1.2)
       rugged (~> 0.17.0.b6)
 
 GEM
@@ -92,7 +93,7 @@ GEM
       map (>= 5.1.0)
     map (6.5.1)
     metaclass (0.0.1)
-    mini_portile (0.5.1)
+    mini_portile (0.5.2)
     minitest (4.4.0)
     minitest-focus (1.0.0)
       minitest (~> 4.4)
@@ -116,6 +117,7 @@ GEM
       multi_json (~> 1.0)
       multi_xml (~> 0.5)
       rack (~> 1.2)
+    oj (2.1.7)
     parallel (0.9.0)
     powerbar (1.0.11)
       ansi (~> 1.4.0)

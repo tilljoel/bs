@@ -5,6 +5,13 @@ before_install:
   - git config --global user.email "support@travis-ci.com"
 
 rvm:
+  - 1.9.2
   - 1.9.3
   - 2.0.0
+  - ruby-head
   - rbx-19mode
+
+matrix:
+  allow_failures:
+    - rvm: ruby-head
+    - rvm: 2.0.0
