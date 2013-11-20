@@ -190,3 +190,7 @@ rake test                      # Run tests
 rake test_with_authentication  # Run tests for test_with_authentication
 
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tilljoel/bs/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
